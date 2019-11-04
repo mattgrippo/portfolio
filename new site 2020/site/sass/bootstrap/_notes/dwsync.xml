@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="index.html" server="janz.io//cp/projects/photoarchive/public/" local="131411805405508250" remote="131513668430000000" Dst="2" />
+<file name="_alerts.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805388826369" remote="131513668610000000" Dst="2" />
+<file name="_badges.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805389206673" remote="131513668610000000" Dst="2" />
+<file name="_breadcrumbs.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805389556914" remote="131513668620000000" Dst="2" />
+<file name="_button-groups.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805390027256" remote="131513668620000000" Dst="2" />
+<file name="_buttons.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805390427511" remote="131513668630000000" Dst="2" />
+<file name="_carousel.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805390847810" remote="131513668630000000" Dst="2" />
+<file name="_close.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805391268100" remote="131513668640000000" Dst="2" />
+<file name="_code.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805391818508" remote="131513668640000000" Dst="2" />
+<file name="_component-animations.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805392218801" remote="131513668650000000" Dst="2" />
+<file name="_dropdowns.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805392629076" remote="131513668660000000" Dst="2" />
+<file name="_forms.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805393059390" remote="131513668670000000" Dst="2" />
+<file name="_glyphicons.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805393489683" remote="131513668670000000" Dst="2" />
+<file name="_grid.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805393879969" remote="131513668680000000" Dst="2" />
+<file name="_input-groups.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805394240259" remote="131513668680000000" Dst="2" />
+<file name="_jumbotron.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805394690541" remote="131513668690000000" Dst="2" />
+<file name="_labels.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805395030791" remote="131513668690000000" Dst="2" />
+<file name="_list-group.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805395451085" remote="131513668700000000" Dst="2" />
+<file name="_media.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805395841354" remote="131513668700000000" Dst="2" />
+<file name="_mixins.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805396291683" remote="131513668700000000" Dst="2" />
+<file name="_modals.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805396671940" remote="131513668710000000" Dst="2" />
+<file name="_navbar.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805397152303" remote="131513668710000000" Dst="2" />
+<file name="_navs.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805397562612" remote="131513668720000000" Dst="2" />
+<file name="_normalize.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805397982893" remote="131513668720000000" Dst="2" />
+<file name="_pager.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805398393172" remote="131513668730000000" Dst="2" />
+<file name="_pagination.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805398753424" remote="131513668730000000" Dst="2" />
+<file name="_panels.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805399163720" remote="131513668740000000" Dst="2" />
+<file name="_popovers.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805399574011" remote="131513668740000000" Dst="2" />
+<file name="_print.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805400024327" remote="131513668750000000" Dst="2" />
+<file name="_progress-bars.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805400394594" remote="131513668750000000" Dst="2" />
+<file name="_responsive-embed.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805400794896" remote="131513668760000000" Dst="2" />
+<file name="_responsive-utilities.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805401185160" remote="131513668760000000" Dst="2" />
+<file name="_scaffolding.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805401635476" remote="131513668770000000" Dst="2" />
+<file name="_tables.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805401995728" remote="131513668770000000" Dst="2" />
+<file name="_theme.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805402426055" remote="131513668780000000" Dst="2" />
+<file name="_thumbnails.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805402786286" remote="131513668780000000" Dst="2" />
+<file name="_tooltip.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805403236627" remote="131513668790000000" Dst="2" />
+<file name="_type.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805403706948" remote="131513668790000000" Dst="2" />
+<file name="_utilities.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805404127251" remote="131513668800000000" Dst="2" />
+<file name="_variables.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805404717667" remote="131513668800000000" Dst="2" />
+<file name="_wells.scss" server="janz.io//cp/projects/photoarchive/public/" local="131411805405137982" remote="131513668810000000" Dst="2" />
+</dwsync>
