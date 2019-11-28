@@ -1419,6 +1419,7 @@ textarea {
 a {
   color: #3c2c7d;
   text-decoration: none;
+  font-weight: 400;
 }
 a:hover, a:focus {
   color: #3c2c7d;
@@ -8642,7 +8643,7 @@ a > img.fh5co-align-center {
   position: absolute;
   width: 50px;
   left: 47%;
-  top: 62.5%;
+  top: 60.5%;
 }
 
 .mySlides {display: none}
@@ -8718,10 +8719,6 @@ a > img.fh5co-align-center {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: transparent;
-}
-
 .dot2 {
   cursor: pointer;
   height: 15px;
@@ -8733,8 +8730,27 @@ a > img.fh5co-align-center {
   transition: background-color 0.6s ease;
 }
 
-.active.dot2:hover {
-  background-color: transparent;
+.dot3 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active.dot3 {
+  background-color: #000000;
+}
+
+.active.dot2 {
+  background-color: #000000;
+}
+
+.active.dot {
+  background-color: #000000;
 }
 
 /* On smaller screens, decrease text size */
@@ -8753,4 +8769,16 @@ a > img.fh5co-align-center {
 
 .project-desc{
   text-align: center;
+}
+
+@media (max-width: 1199px){
+  .sl-arrow{
+    top: 62.5%;
+  }
+}
+
+@media (max-width: 992){
+  .sl-arrow{
+    top: 68.5%;
+  }
 }
