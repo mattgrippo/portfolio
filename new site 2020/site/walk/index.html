@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- document type:: should be on top of every html page -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Home</title>
+    <!-- page title:: name that shows on the browser's tab -->
+
+    <!-- bootstrap's default required javascript code -->
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    ></script>
+
+    <!-- Fonts are imported from google here. See fonts.google.com -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans|Raleway"
+      rel="stylesheet"
+    />
+    <!-- bootstrap's default stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+
+    <!-- Your stylesheet:: you add/edit styles, and/or overwrite bootstrap -->
+    <link href="styles.css" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Bootstrap's navigation structure:: edit/add based on your design
+      if you are adding items, make sure the links are correct and valid, meaning the file you are 
+      linking to actually exitsts.
+ -->
+    <nav class="navbar navbar ">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Walk Thru NEU</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Start Walk</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- This is a simple grid structure using bootstrap (see w3schools' bootstrap tutorials: https://www.w3schools.com/bootstrap/) -->
+    <!-- the main content of the page will go here, so edit accordingly.
+       Feel free to use different layouts/structure, for example different number of columns, nesting rows etc. -->
+    <div class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <img src="/img/churchillhall.jpeg" />
+
+          <h4 class="text-center">
+            <strong>Location 0</strong>
+          </h4>
+          <h1>
+            Before starting your tour, <br />
+            keep these points in mind:
+          </h1>
+          <h2
+            class="col-lg-offset-4 col-lg-4 col-md-6 col-md-offset-3 col-sm-7 col-sm-offset-3 col-xs-offset-0 col-xs-12"
+          >
+            How has Northeastern evolved around? <br /><br />
+            Do you think it is has been postive or negative change? <br /><br />
+          </h2>
+        </div>
+        <br />
+        <a href="startwalk2.html"
+          ><button type="button" class="btn btn-primary">
+            Start Walking!
+          </button></a
+        >
+      </div>
+
+      <hr />
+    </div>
+  </body>
+</html>

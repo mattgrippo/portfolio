@@ -1,0 +1,254 @@
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.huntpics {
+  width: 50%;
+  overflow: hidden;
+}
+
+.container-fluid .row .huntpics {
+  margin-left: 25%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  padding-top: 0px;
+}
+
+nav.navbar {
+  background-color: #efefef;
+}
+
+.nav {
+  margin-bottom: 0px !important;
+}
+
+a {
+  color: black;
+}
+
+li.active {
+  border-bottom: 3px solid #000000;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.container > img {
+  width: 100%;
+}
+
+.col-xs-6 {
+  border: none;
+  outline: none;
+  padding: none;
+}
+
+.col-md-6 {
+  display: block;
+  background-color: #ffffff;
+}
+
+.col-lg-4 {
+  display: block;
+  background-color: #ffffff;
+}
+
+.thumbnail {
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  border: none;
+}
+
+.quizstyle {
+  width: 30%;
+  margin-left: 35%;
+}
+
+h1 {
+  font-size: 22px;
+
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  font-weight: bold;
+  line-height: inherit;
+}
+
+h2 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h3 {
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  width: 100%;
+  font-size: 50px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+#isec {
+  top: 40%;
+}
+
+#locationtext {
+  display: block;
+  line-height: inherit;
+  box-shadow: 3px 3px 1px 1px#337ab7;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #337ab7;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+h4 {
+  font-size: 36px;
+}
+
+h5 {
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: inherit;
+  font-size: 16px;
+}
+
+p2 {
+  font-size: 20px;
+}
+
+.moveleft {
+  padding-left: 25px;
+}
+
+.btn {
+  padding-top: 10px;
+  position: relative;
+  width: 40%;
+  left: 30%;
+}
+
+.mc {
+  width: 80%;
+  margin-left: 10%;
+  text-align: left;
+  line-height: 30px;
+}
+
+#quiz {
+  text-align: center;
+  font-size: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 1px 1px#337ab7;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #337ab7;
+}
+
+@media (max-width: 440px) {
+  .huntpics {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .container-fluid .row .huntpics {
+    margin-left: 0%;
+  }
+}
+
+#rotateimg {
+  transform: rotate(90deg);
+}
+
+@media (min-width: 767px) {
+  #flipimage {
+    transform: rotate(180deg);
+  }
+}
+
+@media (max-width: 388px) {
+  h3 {
+    font-size: 41px;
+  }
+}
+
+@media (max-width: 320px) {
+  h3 {
+    font-size: 39px;
+  }
+}
+
+@media (max-width: 767) {
+  #bumpdown {
+    padding-bottom: 20px;
+  }
+}
+
+.FAQ {
+  cursor: pointer;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#sides {
+  margin: 0;
+}
+#left {
+  float: left;
+  width: 75%;
+  overflow: hidden;
+}
+#right {
+  float: left;
+  width: 25%;
+  overflow: hidden;
+}
+
+#frame {
+  border: none;
+  outline: none;
+  height: 500px;
+}
+
+.directions-drop {
+  background-color: #337ab7;
+  padding: 8px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#faq1 {
+  padding-top: 10px;
+  background-color: #eaeaea;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.footer {
+  position: relative;
+  float: left;
+  background-color: #efefef;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-top: 25px;
+}
+
+.footer-text {
+  text-align: center;
+}

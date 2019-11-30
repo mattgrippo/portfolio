@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!-- document type:: should be on top of every html page -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Location 3</title>
+    <!-- page title:: name that shows on the browser's tab -->
+
+    <!-- bootstrap's default required javascript code -->
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    ></script>
+
+    <script type="text/javascript" src="scripts/quiz.js"></script>
+
+    <!-- Fonts are imported from google here. See fonts.google.com -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans|Raleway"
+      rel="stylesheet"
+    />
+    <!-- bootstrap's default stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+
+    <!-- Your stylesheet:: you add/edit styles, and/or overwrite bootstrap -->
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script type="text/javascript">
+      function toggle(Info) {
+        var CState = document.getElementById(Info);
+        CState.style.display =
+          CState.style.display != "inherit" ? "inherit" : "none";
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Bootstrap's navigation structure:: edit/add based on your design
+      if you are adding items, make sure the links are correct and valid, meaning the file you are 
+      linking to actually exitsts.
+ -->
+    <nav class="navbar navbar ">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Walk Thru NEU</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Start Walk</a></li>
+
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- This is a simple grid structure using bootstrap (see w3schools' bootstrap tutorials: https://www.w3schools.com/bootstrap/) -->
+    <!-- the main content of the page will go here, so edit accordingly.
+       Feel free to use different layouts/structure, for example different number of columns, nesting rows etc. -->
+    <div class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <h4 class="text-center"><strong>Location 3</strong></h4>
+          <h1>Richards Hall</h1>
+
+          <div class="huntpics" id="bumpdown">
+            <img src="img/img3.JPG" alt="" width="81" height="50%" />
+          </div>
+
+          <br />
+          <div class="FAQ col-lg-offset-2 col-lg-8" onclick="toggle('faq1')">
+            <u class="directions-drop"
+              >Tap for directions to
+              <span style="font-weight: bolder">Richards Hall</span></u
+            >
+            <div id="faq1" style="display: none;" class="FAQ">
+              Go back on Huntington Avenue through Opera Place and this time
+              cross Huntington Avenue towards Northeastern University, Richards
+              Hall is the building in front of you.
+            </div>
+          </div>
+
+          <h2
+            id="locationtext"
+            class="col-lg-offset-4 col-lg-4 col-xs-offset-2 col-xs-8"
+          >
+            Find the black kiosk in front of Richards Hall with information,
+            pictured above.
+          </h2>
+          <br />
+        </div>
+        <br />
+        <div
+          class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-9 col-sm-offset-2 col-xs-offset-1 col-xs-10"
+          id="quiz"
+        >
+          <span class="title"> </span>
+          <span class="question">
+            <h5>
+              What was the original name of Richards Hall?
+            </h5>
+            <br /> </span
+          ><br />
+          <div class="mc">
+            <input
+              type="radio"
+              name="quiz"
+              onClick="wrong('startwalk5.html');"
+            />
+            Richards Student Center <br />
+            <input
+              type="radio"
+              name="quiz"
+              onClick="wrong('startwalk5.html');"
+            />
+            East Hall<br />
+            <input
+              type="radio"
+              name="quiz"
+              onClick="wrong('startwalk5.html');"
+            />
+            Academic Center<br />
+            <input
+              type="radio"
+              name="quiz"
+              onClick="correct('startwalk5.html');"
+            />
+            West Building<br />
+          </div>
+          <br />
+          <span id="quiz_return"></span><br />
+          <br />
+        </div>
+        <span id="quiz_continue"></span>
+      </div>
+
+      <hr />
+    </div>
+  </body>
+</html>
