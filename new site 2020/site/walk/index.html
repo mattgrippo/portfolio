@@ -33,6 +33,14 @@
     <link href="styles.css" rel="stylesheet" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script type="text/javascript">
+      function toggle(Info) {
+        var CState = document.getElementById(Info);
+        CState.style.display =
+          CState.style.display != "inherit" ? "inherit" : "none";
+      }
+    </script>
   </head>
   <body>
     <!-- Bootstrap's navigation structure:: edit/add based on your design
@@ -42,7 +50,13 @@
     <nav class="navbar navbar ">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">Walk Thru NEU</a>
+          <a class="navbar-brand" href="index.html">
+            <img
+              style="width: 35px; float: left; border-radius: unset; top: -6px; left: -8px; position: relative;"
+              src="img/logo.png"
+            />
+            Walk Thru NEU</a
+          >
         </div>
         <ul class="nav navbar-nav">
           <li class="active"><a href="index.html">Start Walk</a></li>
@@ -57,31 +71,84 @@
     <div class="content">
       <div class="container-fluid">
         <div class="row">
-          <img src="/img/churchillhall.jpeg" />
-
           <h4 class="text-center">
-            <strong>Location 0</strong>
+            <strong>Walk Thru NEU</strong>
           </h4>
-          <h1>
-            Before starting your tour, <br />
-            keep these points in mind:
-          </h1>
-          <h2
-            class="col-lg-offset-4 col-lg-4 col-md-6 col-md-offset-3 col-sm-7 col-sm-offset-3 col-xs-offset-0 col-xs-12"
+
+          <h1>Start the Walk at Krentzman Quadrangle</h1>
+
+          <br />
+
+          <div
+            class="FAQ col-lg-offset-4 col-lg-4 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-offset-0 col-xs-12"
+            onclick="toggle('faq1')"
           >
-            How has Northeastern evolved around? <br /><br />
-            Do you think it is has been postive or negative change? <br /><br />
-          </h2>
+            <u class="directions-drop"
+              >Map of
+              <span style="font-weight: bolder">Krentzman Quadrangle</span></u
+            >
+            <div
+              id="faq1"
+              style="display: none;"
+              class="FAQ"
+              style="height: 300px;;"
+            >
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=krentaman%20quad%20boston&t=k&z=19&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                  ></iframe>
+                </div>
+                <style>
+                  .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 100%;
+                    width: 100%;
+                  }
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: inherit;
+                    width: inherit;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+
+          <div
+            id="locationtext"
+            class="col-lg-offset-4 col-lg-4 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-offset-1 col-xs-10"
+          >
+            <h5>
+              Answer each question at the bottom of the page (correctly or
+              incorrectly) about information on the plaque to move on to the
+              next location!
+            </h5>
+          </div>
         </div>
         <br />
+        <br />
         <a href="startwalk2.html"
-          ><button type="button" class="btn btn-primary">
+          ><button type="button" class="btn btn-primary" style="top: unset;">
             Start Walking!
           </button></a
         >
       </div>
-
-      <hr />
+    </div>
+    <div class="footer" style="position: fixed; bottom: 0px;">
+      <div class="footer-text">
+        Walk Thru NEU was designed & developed by Matt Grippo for the course 5D
+        Fundamentals.
+      </div>
     </div>
   </body>
 </html>

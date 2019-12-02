@@ -8782,3 +8782,8 @@ a > img.fh5co-align-center {
     top: 68.5%;
   }
 }
+
+.skill-list{
+  float: left;
+  margin-left: 5px;
+}

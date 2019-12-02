@@ -138,6 +138,7 @@ p2 {
   position: relative;
   width: 40%;
   left: 30%;
+  top: -62px;
 }
 
 .mc {
@@ -190,9 +191,15 @@ p2 {
   }
 }
 
-@media (max-width: 767) {
+@media (max-width: 767px) {
   #bumpdown {
     padding-bottom: 20px;
+  }
+  .nav > li {
+    float: left;
+  }
+  .navbar-nav > li > a {
+    display: block;
   }
 }
 
@@ -201,6 +208,10 @@ p2 {
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.directions-drop:hover {
+  background-color: #286090;
 }
 
 #sides {
@@ -251,4 +262,22 @@ p2 {
 
 .footer-text {
   text-align: center;
+}
+
+#quiz_return {
+  position: relative;
+  top: -190px;
+  font-weight: 800;
+}
+
+.correct {
+  color: #54b733;
+}
+
+.wrong {
+  color: #b73333;
+}
+
+input {
+  cursor: pointer;
 }
