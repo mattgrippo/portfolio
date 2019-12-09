@@ -1446,6 +1446,14 @@ img {
   padding: 5%;
 }
 
+.img-about {
+  display: block;
+  max-width: 50%;
+  left: 25%;
+  height: auto;
+  padding: 5%;
+}
+
 .img-rounded {
   border-radius: 6px;
 }
