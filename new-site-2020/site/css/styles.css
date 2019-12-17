@@ -167,7 +167,7 @@ header h1 {
   display: block;
   position: relative;
   margin-left: -12px;
-  margin-top: -12px;
+  /* margin-top: -12px; */
 }
 
 .cd-timeline__img.cd-timeline__img--picture {
