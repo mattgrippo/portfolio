@@ -178,3 +178,8 @@ modal4.onclick = function() {
 modal5.onclick = function() {
   modal5.style.display = "none";
 };
+
+$("#party-mode").click(function() {
+  $("#particles-js").toggleClass("particle-no-show");
+  toggleClass("particle-no-show");
+});

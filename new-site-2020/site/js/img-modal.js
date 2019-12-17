@@ -149,3 +149,16 @@ modal6.onclick = function() {
 modal7.onclick = function() {
   modal7.style.display = "none";
 };
+
+//party mode
+
+// var particlestoggle = document.getElementById("particles-js");
+// var particlestoggler = document.getElementById("party-mode");
+
+// particlestoggler.onclick = function() {
+//   particlestoggle.style.display = "block";
+// };
+
+// function partyMode() {
+//   particlestoggle.style.display = "block";
+// }
