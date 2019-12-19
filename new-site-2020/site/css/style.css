@@ -8814,3 +8814,23 @@ a > img.fh5co-align-center {
 .particle-show{
   display: block;
 }
+
+.navbar-link{
+  text-align: center;
+  font-weight: bold;
+  float: none !important;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-family: "Montserrat", arial, sans-serif;
+  color: #000;
+}
+
+.navbar-link:hover{
+  text-decoration: none;
+}
+
+@-moz-document url-prefix() {
+  .timeline-logo {
+    top: unset;
+  }
+}

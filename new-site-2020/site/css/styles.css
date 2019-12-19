@@ -91,7 +91,7 @@ header h1 {
   content: "";
   position: absolute;
   top: 0;
-  left: 18px;
+  left: 40px;
   height: 100%;
   width: 2px;
   background: #cccccc;
@@ -148,10 +148,10 @@ header h1 {
   border-color: #ffffff;
   background: white;
   position: absolute;
-  top: 0;
+  top: -20px;
   left: 0;
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   -webkit-box-shadow: 2px 2px 4px 0px #eaeaea;
   box-shadow: 2px 2px 4px 0px #eaeaea;
@@ -235,7 +235,8 @@ header h1 {
 
 .cd-timeline__content {
   position: relative;
-  margin-left: 60px;
+  margin-left: 20%;
+  margin-right: 20%;
   background: white;
   border-radius: 0.25em;
   padding: 1em;
@@ -298,11 +299,13 @@ header h1 {
   float: left;
   padding: 0.8em 0;
   opacity: 0.7;
+  cursor: default;
 }
 
 @media only screen and (min-width: 768px) {
   .cd-timeline__content h2 {
     font-size: 2rem;
+    font-weight: 400;
   }
   .cd-timeline__content p {
     font-size: 1.6rem;
@@ -316,6 +319,7 @@ header h1 {
 @media only screen and (min-width: 1170px) {
   .cd-timeline__content {
     margin-left: 0;
+    margin-right: 0;
     padding: 1.6em;
     width: 45%;
     /* Force Hardware Acceleration */
@@ -481,4 +485,34 @@ ul {
 .job-show {
   max-height: 1000px;
   height: inherit;
+}
+
+.today-tl {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1170px) {
+  .today-tl {
+    text-align: left;
+    position: relative;
+    width: 90%;
+    left: 5%;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cd-timeline__content {
+    margin-right: unset;
+  }
+  .cd-timeline__content h2 {
+    font-weight: 400;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .cd-timeline__content {
+    margin-left: 25%;
+  }
 }
