@@ -8790,7 +8790,15 @@ a > img.fh5co-align-center {
   }
 }
 
-@media (max-width: 992){
+.toolbox{
+  float: right;
+}
+
+.skills-title{
+  text-align: right;
+}
+
+@media (max-width: 992px){
   .sl-arrow{
     top: 68.5%;
   }
@@ -8798,7 +8806,17 @@ a > img.fh5co-align-center {
     width: 50%;
     max-height: unset;
     left: 25%;
-
+  }
+  .toolbox{
+    display: block ruby;
+    text-align: center;
+    padding-bottom: 25px;
+    top: -10px;
+    position: relative;
+    float: unset;
+  }
+  .skills-title{
+    text-align: center;
   }
 }
 
