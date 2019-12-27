@@ -1164,7 +1164,7 @@
   <fonts>
     <font name="Amazon Ember">
       <files>
-        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
         <file bold="false" italic="false" />
       </files>
     </font>
