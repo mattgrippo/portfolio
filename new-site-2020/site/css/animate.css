@@ -26,8 +26,8 @@ Copyright (c) 2015 Daniel Eden
 
 .animated.bounceIn,
 .animated.bounceOut {
-  -webkit-animation-duration: .75s;
-  animation-duration: .75s;
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
 }
 
 .animated.flipOutX,
@@ -38,8 +38,8 @@ Copyright (c) 2015 Daniel Eden
 
 @-webkit-keyframes bounce {
   from, 20%, 53%, 80%, to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.410, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.410, 0.355, 1.000);
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
   }
@@ -66,8 +66,8 @@ Copyright (c) 2015 Daniel Eden
 
 @keyframes bounce {
   from, 20%, 53%, 80%, to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.410, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.410, 0.355, 1.000);
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
   }
