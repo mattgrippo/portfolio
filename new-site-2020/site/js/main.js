@@ -1,14 +1,14 @@
 //other stuff
 
-(function() {
+(function () {
   "use strict";
 
   // iPad and iPod detection
-  var isiPad = function() {
+  var isiPad = function () {
     return navigator.platform.indexOf("iPad") != -1;
   };
 
-  var isiPhone = function() {
+  var isiPhone = function () {
     return (
       navigator.platform.indexOf("iPhone") != -1 ||
       navigator.platform.indexOf("iPod") != -1
@@ -16,19 +16,19 @@
   };
 
   // OffCanvass
-  var offCanvass = function() {
+  var offCanvass = function () {
     $("body").on(
       "click",
       ".js-fh5co-menu-btn, .js-fh5co-offcanvass-close",
-      function() {
+      function () {
         $("#fh5co-offcanvass").toggleClass("fh5co-awake");
       }
     );
   };
 
   // Click outside of offcanvass
-  var mobileMenuOutsideClick = function() {
-    $(document).click(function(e) {
+  var mobileMenuOutsideClick = function () {
+    $(document).click(function (e) {
       var container = $("#fh5co-offcanvass, .js-fh5co-menu-btn");
       if (!container.is(e.target) && container.has(e.target).length === 0) {
         if ($("#fh5co-offcanvass").hasClass("fh5co-awake")) {
@@ -37,7 +37,7 @@
       }
     });
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
       if ($(window).scrollTop() > 500) {
         if ($("#fh5co-offcanvass").hasClass("fh5co-awake")) {
           $("#fh5co-offcanvass").removeClass("fh5co-awake");
@@ -48,7 +48,7 @@
 
   // Magnific Popup
 
-  var magnifPopup = function() {
+  var magnifPopup = function () {
     $(".image-popup").magnificPopup({
       type: "image",
       removalDelay: 300,
@@ -66,31 +66,32 @@
         // The "opener" function should return the element from which popup will be zoomed in
         // and to which popup will be scaled down
         // By defailt it looks for an image tag:
-        opener: function(openerElement) {
+        opener: function (openerElement) {
           // openerElement is the element on which popup was initialized, in this case its <a> tag
           // you don't need to add "opener" option if this code matches your needs, it's defailt one.
-          return openerElement.is("img")
-            ? openerElement
-            : openerElement.find("img");
+          return openerElement.is("img") ?
+            openerElement :
+            openerElement.find("img");
         }
       }
     });
   };
 
-  var animateBoxWayPoint = function() {
+  var animateBoxWayPoint = function () {
     if ($(".animate-box").length > 0) {
       $(".animate-box").waypoint(
-        function(direction) {
+        function (direction) {
           if (direction === "down" && !$(this).hasClass("animated")) {
             $(this.element).addClass("bounceIn animated");
           }
-        },
-        { offset: "75%" }
+        }, {
+          offset: "75%"
+        }
       );
     }
   };
 
-  $(function() {
+  $(function () {
     magnifPopup();
     offCanvass();
     mobileMenuOutsideClick();
@@ -126,60 +127,55 @@ var img5 = document.getElementById("myImg5");
 var modalImg5 = document.getElementById("img05");
 var captionText5 = document.getElementById("caption5");
 
-img.onclick = function() {
+img.onclick = function () {
   modal.style.display = "block";
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;
 };
-img2.onclick = function() {
+img2.onclick = function () {
   modal2.style.display = "block";
   modalImg2.src = this.src;
   captionText2.innerHTML = this.alt;
 };
-img3.onclick = function() {
+img3.onclick = function () {
   modal3.style.display = "block";
   modalImg3.src = this.src;
   captionText3.innerHTML = this.alt;
 };
-img4.onclick = function() {
+img4.onclick = function () {
   modal4.style.display = "block";
   modalImg4.src = this.src;
   captionText4.innerHTML = this.alt;
 };
-img5.onclick = function() {
+img5.onclick = function () {
   modal5.style.display = "block";
   modalImg5.src = this.src;
   captionText5.innerHTML = this.alt;
 };
 
-$(document).keyup(function(e) {
+$(document).keyup(function (e) {
   if (e.key === "Escape") {
     // escape key maps to keycode `27`
     modal.style.display = "none";
   }
 });
 
-modal.onclick = function() {
+modal.onclick = function () {
   modal.style.display = "none";
 };
 
-modal2.onclick = function() {
+modal2.onclick = function () {
   modal2.style.display = "none";
 };
 
-modal3.onclick = function() {
+modal3.onclick = function () {
   modal3.style.display = "none";
 };
 
-modal4.onclick = function() {
+modal4.onclick = function () {
   modal4.style.display = "none";
 };
 
-modal5.onclick = function() {
+modal5.onclick = function () {
   modal5.style.display = "none";
 };
-
-$("#party-mode").click(function() {
-  $("#particles-js").toggleClass("particle-no-show");
-  toggleClass("particle-no-show");
-});

@@ -10297,3 +10297,14 @@ a.lightbox-close:after {
 .lightbox-target:target a.lightbox-close {
   top: 0px;
 }
+
+.exp-indicator {
+  float: right;
+  position: relative;
+  top: -60px;
+  right: -10px
+}
+
+#expindicator3 {
+  top: -80px;
+}
