@@ -7,6 +7,7 @@
 <!--<![endif]-->
 
 <head>
+  <link rel="stylesheet" href="css/style.css" />
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-81257706-2"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -58,7 +59,6 @@
   <!-- Salvattore -->
   <link rel="stylesheet" href="css/salvattore.css" />
   <!-- Theme Style -->
-  <link rel="stylesheet" href="css/style.css" />
   <!-- Modernizr JS -->
   <script src="js/modernizr-2.6.2.min.js"></script>
   <!-- FOR IE9 below -->
@@ -152,27 +152,24 @@
             <h3>Define</h3>
 
             <div>
-              <div class="col-md-6 img-container">
-                <p>After interviewing a variety of people about their daily frustrations,
-                  I settled on individuals in amatuer bands, to create a solution for. Being apart
-                  of a band myself, I was aware of many of the problems and frustrations that amatuer bands could face
-                  and frustrated with the lack of solutions.
+              <div class="col-md-12 img-container">
+                <p>
+                  The initial assignment of the class was to interview a variety of people about their daily frustrations. I created 
+                  personas based on my interviews
+
+                  Being a musician, I am around a lot of people who are in bands and I discovered through conversation many of my friends were having trouble managing practice schedules, gig availability, and new song development over text message
+                  and Facebook Messanger.
+
                   <br>
                   <br>
-                  I decided I wanted to create an online and collaborative <b>Band Manangement System</b>
-                  to help amatuer bands keep track of things like practice times, song writing, and gig opportunities.
+                  So, I decided I wanted to create a collaborative, real-time <b>Band Manangement System</b> and I'm thinking it's going to look like a calendar,
+                  message board, and file storage system all wrapped up into one experience for bands.
                 </p>
                 <p>
-                  Once I decided on a concept, I conducted interviews to determine what features and
-                  capabilities
-                  would be the most valuable to my audience. In my interviews, I realized that there
-                  was another problem that amatuer bands were facing, the recording process. I also found that even
-                  though
-                  a Band Management System
-                  would be helpful, my audience already had solutions to the organizational and communicative problems
-                  that they faced (in most cases using a mix of Google Drive and Facebook
-                  Messanger).
+                  Once I landed on that concept, I conducted more interviews to determine what features and
+                  capabilities would be the most valuable to this audience, which I formally defined as the <i>amatuer band</i>.
                 </p>
+<!-- 
               </div>
               <div class="col-md-6 img-container" style="float:right;">
                 <figure>
@@ -182,50 +179,50 @@
                   <figcaption class="captions">Persona</figcaption>
                 </figure>
               </div>
-            </div>
+            </div> -->
 
 
-            <div class="col-md-12">
-
-              <p>This is when I decided to pivot my idea into an online <b>Digital Audio Workstation</b> (or DAW for
-                short) to enable collaboration
-                between musicians. This idea was aimed at
-                removing friction in the
-                recording process. And so I continued to
-                interview appropriate subjects to determine what my audience would find valuable in an online recording
-                solution.</p>
+        
+              <p>
+                In my conversations, I discovered two very important things:
+                <ol>
+                  <li>There was a universal drive to constantly be recording and sharing the latest mixes and demos among band members</li>
+                  <li>The current solution to the problem (a mix of Google Drive and Facebook) 
+                    was very sticky because they use these apps everyday
+                  </li>
+                </ol>
+                <br>
+                So to create a product that would make this user want to switch, I had to address the frustration on a new level of usability that would provide value beyond the effort of maintaining another platform to organize their life.
+              </p>
+              <p>This is when I decided to pivot my project into a real-time, collaborative <b>Digital Audio Workstation</b> (DAW), a platform where musicians can record together virtually.</p>
+ 
+          </div>
             </div>
           </div>
 
           <div id="Design" class="tabcontent">
 
             <h3>Design</h3>
-            <div class="col-md-6 img-container">
+            <div class="col-md-6 img-container" style="padding-bottom: unset;">
               <p>With the information from my interviews, I started to
                 come up with concepts for the platform.</p>
 
               <p>
                 I wanted the site to let users
-                comment on a song at a certain point in time. I benchmarked services like <a
-                  href="https://www.soundcloud.com" target="_blank">Soundcloud</a> for its inteaction
+                comment on songs at a certain point in time. I benchmarked services like <a
+                  href="https://www.soundcloud.com" target="_blank">Soundcloud</a> for its interaction
                 and social features, and Garageband for its audio editting user interfaces. DAWs require a lot of
-                functionality to be useful but somehow I still wanted to simmer down what the essense of a digital audio
-                workstation was since my target audience was amateur bands.
-                <br><br>
-                Some considerations that went into my design:
-                <ul>
-                  <li>Allowing multiple users to work and edit on a song</li>
-                  <li>The ability to upload and export audio on the site</li>
-                  <li>A simple organization for the process (recording, mixing, and editting)</li>
-                </ul>
+                functionality to be useful but I wanted to simmer it down to the basics for a simple user experience.
+    
+
               </p>
 
             </div>
 
-            <div class="col-md-3 img-container" style="float:right;">
+            <div class="col-md-3 img-container" style="display: grid;">
               <figure>
                 <div class="modal-image">
-                  <img id="myImg6" src="images/dawsome/IMG_0188.jpg" style="width:100%;max-width:200px">
+                  <img id="myImg6" src="images/dawsome/IMG_0188.jpg" style="width:100%;max-width:400px">
 
                 </div>
                 <figcaption class="captions"></figcaption>
@@ -238,10 +235,10 @@
             </div>
 
 
-            <div class="col-md-3 img-container" style="float:right;">
+            <div class="col-md-3 img-container" style="display: grid;">
               <figure>
                 <div class="modal-image">
-                  <img id="myImg7" src="images/dawsome/IMG_0186.jpg" style="width:100%;max-width:200px">
+                  <img id="myImg7" src="images/dawsome/IMG_0186.jpg" style="width:100%;max-width:400px">
 
                 </div>
                 <figcaption class="captions"></figcaption>
@@ -252,8 +249,15 @@
               <img class="modal-content" id="img07">
               <div id="caption7" class="modal-caption"></div>
             </div>
+            <div class="col-md-12 img-container" style="padding-top: unset; min-width: 220px; display: grid;">
+              Some considerations that went into my design:
+              <ul>
+                <li>Allowing multiple users to work and edit on a song</li>
+                <li>The ability to upload and export audio on the site</li>
+                <li>A simple organization for the process (recording, mixing, and editting)</li>
+              </ul>
 
-
+            </div>
           </div>
 
 
@@ -271,7 +275,7 @@
                   The tests provided a lot of insight into my prototype. I learned that a lot
                   of the audio editting icons were not recognizable to my audience. While they were
                   inspired by existing icons in DAWs, I realized the audience for my site may not
-                  have this background knowledge.
+                  have this background knowledge. 
                 </p>
 
               </div>
@@ -335,14 +339,15 @@
                   helped me to consider what the essence of the service was and how it could be
                   be represented visually.
                 </p>
-                <p>As the design of the prototype came together, I decided to use the loop icon
-                  in the logo. The icon represents the collaboration of
+                <p>But as the design of the prototype came together, I decided to use the loop icon from the DAW
+                  in the logo, replacing the "o". The icon and logo represent the collaboration of
                   musicians and the cycle of work that becomes a song.
                   <br><br><br>
                 </p>
-                <img src="images/dawsome/logo.png" alt="logo" style="position: relative; width: 50%; left: 25%;">
+ 
 
               </div>
+
 
               <div class="col-md-6" style="float:right;">
                 <div style="position: relative; width: 70%; left: 15%;">
@@ -381,11 +386,15 @@
               </div>
 
               <div class="col-md-12">
+                <img src="images/dawsome/logo.png" alt="logo" style="position: relative; width: 50%; left: 25%;">
+              </div>
+
+              <div class="col-md-12">
                 <div class="col-md-12">
                   <br><br><br>
-                  As the branding was taking form, I focused on the experience that users would
-                  have when they were exposed to Dawsome for the first time. This led to the mock up of website
-                  pages, including the homepage and a community page which allowed users to engage with other
+                  As the branding took form, I focused on the impression that users would
+                  have when they were first exposed to Dawsome. This led to mock up website
+                  pages including the homepage and the community page, which allowed users to engage with other
                   projects on the site.
                   <br><br><br>
                 </div>
@@ -419,15 +428,16 @@
             <h3>Refine</h3>
             <div>
               <div class="col-md-6 img-container">
-                <p>Testing the prototype of my design allowed me to identify priorities for the areas that needed most
-                  improvement.
-                  I wanted to create a interface that was simple and reduced the amount ambiguity exposed to the
+                <p>Testing the prototype of my design allowed me to identify areas 
+                  within the design that were confusing and an interuption to
+                  user workflows.
+                  I wanted to create a interface that was simple and reduced the amount of ambiguity exposed to the
                   user. I tried to incorporate learnings from my tests to make an interface that was easy to understand
                   from the start.
-                  <br><br>Also,
-                  I was finally able to add color to the mock ups.</p>
+                  <br><br>
+                  I was also able to add color.</p>
                 <p>
-                  You can check out the laptop versions of the workflows <a href="https://xd.adobe.com/view/f02d924b-f5e2-43a8-5c13-de993b41b0fd-861c/screen/71f03dae-b03e-4f84-83f7-9a1c9bd5dc10/DAW-export?fullscreen
+                  You can check out the laptop versions of the workflows <a href="https://xd.adobe.com/view/f02d924b-f5e2-43a8-5c13-de993b41b0fd-861c/?fullscreen
                       " target="_blank">here.</a>
                 </p>
               </div>

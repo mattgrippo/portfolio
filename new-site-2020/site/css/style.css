@@ -8392,9 +8392,8 @@ button.close {
   }
 
   .img-about {
-    width: 70%;
+    width: 100%;
     max-height: unset;
-    left: 15%;
 
   }
 }
@@ -8482,7 +8481,7 @@ body {
   font-weight: 300;
   font-size: 15px;
   line-height: 26px;
-  color: ##565757;
+  color: #565757;
   background: #f5f6f7;
 }
 
@@ -9294,6 +9293,7 @@ pre {
   .fh5co-spacer-xs {
     height: 20px;
   }
+
 }
 
 .fh5co-spacer-xxs {
@@ -9880,6 +9880,8 @@ a>img.fh5co-align-center {
   cursor: pointer;
 }
 
+
+
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
   .modal-content {
@@ -9927,7 +9929,7 @@ a>img.fh5co-align-center {
   position: absolute;
   width: 50px;
   left: 47%;
-  top: 60.5%;
+  top: 62.5%;
 }
 
 .mySlides {
@@ -10072,7 +10074,7 @@ a>img.fh5co-align-center {
 
 @media (max-width: 1199px) {
   .sl-arrow {
-    top: 62.5%;
+    top: 64.5%;
   }
 }
 
@@ -10114,14 +10116,7 @@ a>img.fh5co-align-center {
     left: 48%;
   }
 
-  .img-about {
-    width: 50%;
-    max-height: unset;
-    left: 25%;
-  }
-
   .toolbox {
-    display: block ruby;
     text-align: center;
     padding-bottom: 25px;
     top: -10px;
@@ -10131,6 +10126,19 @@ a>img.fh5co-align-center {
 
   .skills-title {
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sl-arrow {
+    top: 71.5%;
+    transform: rotate(90deg);
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .sl-arrow {
+    top: 72.5%;
   }
 }
 
